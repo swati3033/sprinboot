@@ -1,0 +1,4 @@
+implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.hibernate.orm:hibernate-core:6.2.13.Final' // Adjust version if needed
+	
+    implementation 'mysql:mysql-connector-java'

@@ -1,0 +1,16 @@
+<!-- src/main/resources/templates/taskDetail.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Task Detail</title>
+</head>
+<body>
+    <h1>Task Detail</h1>
+    <p>ID: <span th:text="${task.id}"></span></p>
+    <p>Name: <span th:text="${task.name}"></span></p>
+    <p>Status: <span th:text="${task.status}"></span></p>
+    <!-- Add more fields as necessary -->
+
+    <a th:href="@{/tasks}">Back to Task List</a>
+</body>
+</html>
